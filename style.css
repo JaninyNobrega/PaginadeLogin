@@ -50,9 +50,9 @@ body {
 }
 
 .direita label {
-    width: 100%;
-    display: block; 
-    margin-bottom: 15px;
+    width: 100%; /*largura*/
+    display: block; /*para ocupar toda a largura*/
+    margin-bottom: 5px;
     color: #b5b5c5;
     margin-left: 0px;
     margin-right: 0px;
