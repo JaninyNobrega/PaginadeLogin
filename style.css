@@ -1,40 +1,40 @@
 body {
-margin: 0;
-padding: 0;
-font-family: 'Poppins', sans-serif;
-background-color: #0e0c23;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0e0c23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 }
 
 .container {
-display: flex;
-gap: 250px;
-align-items: center;
+    display: flex;
+    gap: 250px;
+    align-items: center;
 }
 
 .esquerda {
-max-width: 600px; 
+    max-width: 600px; 
 }
 
 .esquerda h2 {
-color: #00ff84;
-font-size: 28px;
-font-family: 'Poppins', sans-serif;
+    color: #00ff84;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .direita {
-background-color: #1e1b35;
-padding-bottom: 40px;
-padding-top: 10px;
-padding-left: 30px;
-padding-right: 40px;
-border-radius: 20px;
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-width: 300px; 
-transition: transform 0.3s ease;
+    background-color: #1e1b35;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    width: 300px; 
+    transition: transform 0.3s ease;
 }
 
 .direita:hover {
@@ -42,52 +42,52 @@ transition: transform 0.3s ease;
 }
 
 .direita h3 {
-color: #00ff84;
-text-align: center;
-margin-bottom: 15px; 
-font-family: 'Poppins', sans-serif;
-font-size: 26px;
+    color: #00ff84;
+    text-align: center;
+    margin-bottom: 15px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
 }
 
 .direita label {
-width: 100%;
-display: block; 
-margin-bottom: 15px;
-color: #b5b5c5;
-margin-left: 0px;
-margin-right: 0px;
-text-align: left;
-align-items: center;
-border-radius: 10px;
+    width: 100%;
+    display: block; 
+    margin-bottom: 15px;
+    color: #b5b5c5;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .direita input {
-width: 100%;
-display: block;
-padding: 10px;
-padding-left: 5px;
-margin-bottom: 15px; 
-background-color: #3c375c;
-border: none;
-border-radius: 10px;
-color: #b5b5c5;
-align-items: center;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    padding-left: 5px;
+    margin-bottom: 15px; 
+    background-color: #3c375c;
+    border: none;
+    border-radius: 10px;
+    color: #b5b5c5;
+    align-items: center;
 }
 
 .direita button {
-width: 106%;
-padding: 10px;
-margin-bottom: 5px;
-margin-top: 20px;
-background-color: #00ff84;
-border: none;
-border-radius: 10px;
-color: #000000;
-font-weight: bold;
-cursor: pointer;
-transition: background-color 0.5s ease;
+    width: 106%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background-color: #00ff84;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
 }
 
 .direita button:hover {
-background-color: #0b492a;
+    background-color: #0b492a;
 }
